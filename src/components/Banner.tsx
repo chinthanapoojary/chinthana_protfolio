@@ -16,7 +16,7 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.7 }}
         className="text-4xl lg:text-6xl font-titleFont font-semibold flex flex-col"
       >
-        Noor Mohammad.
+        Chinthana S V.
         <span className="text-textDark mt-2 lg:mt-4">
           I build things for the web.
         </span>
@@ -27,11 +27,8 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.8 }}
         className="text-base md:max-w-[650px] text-textDark font-medium"
       >
-        I am a web developer with 4+ years of experience in React. I have a
-        strong foundation in front-end & back-end development and am skilled in
-        creating user-friendly and responsive web applications using React and
-        its ecosystem.{" "}
-        <a href="https://www.noormohammad.live/" target="_blank">
+         Full Stack Developer with expertise in React and Node.js for both front-end and back-end development, along with strong proficiency in Python, Flask, and MySQL. Currently working as a Full Stack Developer at AddWeb, I possess a solid foundation in building scalable applications and excel at creating responsive, user-friendly web solutions.{" "}
+        <a href="https://www.linkedin.com/in/chinthana-sv-9890492b2/" target="_blank">
           {" "}
           <span className="text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group">
             Learn more
@@ -39,7 +36,7 @@ const Banner = () => {
           </span>
         </a>
       </motion.p>
-      <a href="https://github.com/noorjsdivs" target="_blank">
+      <a href="https://github.com/chinthanapoojary" target="_blank">
         <motion.button
           initial={{ y: 10, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}

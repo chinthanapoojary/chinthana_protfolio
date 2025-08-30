@@ -18,40 +18,31 @@ const About = () => {
           className="w-full lg:w-2/3 text-base text-textDark font-bodyFont flex flex-col gap-6"
         >
           <p>
-            Hello! My name is Noor Mohammad, and I’m passionate about crafting
-            exceptional web experiences. My journey in web development began in
-            2012 when I started experimenting with custom Tumblr themes, where
-            building a custom reblog button sparked my love for HTML and CSS.
+            Hello! My name is Chinthana S V, and I’m passionate about building scalable and user-friendly web applications. My journey in technology began during my BCA days, where experimenting with Python and web development projects sparked my love for coding. Since then, I’ve grown into a Full Stack Developer with expertise in React, Node.js, Python, Flask, and MySQL, and I’m currently applying my skills at AddWeb while pursuing my MCA.
           </p>
           <p>
-            Today, I’ve had the privilege of working at an{" "}
+            Today, I’ve had the opportunity to work on projects across{" "}
             <span className="text-textGreen">
-              advertising agency, a startup, a major corporation, and a
-              student-led design studio.
+              internships, academic research, and my current role as a Full Stack Developer at AddWeb.
             </span>{" "}
-            My diverse experiences have honed my skills in creating
-            user-friendly, scalable, and visually appealing applications. I
-            thrive on solving complex problems and bringing ideas to life on the
-            internet.
+            These diverse experiences have strengthened my skills in building user-friendly, scalable, and efficient applications. I enjoy tackling complex challenges and transforming ideas into practical digital solutions.
           </p>
           <p>
-            I’m constantly learning and adapting to new technologies to stay at
-            the forefront of web development. My focus is on building seamless,
-            performant, and accessible digital solutions.
+            I’m always eager to explore and adapt to emerging technologies, ensuring I stay at the forefront of development. My focus remains on crafting seamless, responsive, and impactful web applications that deliver real value to users.
           </p>
           <p className="font-titleFont font-semibold text-textLight">
             Here are some technologies I’ve been working with recently:
           </p>
           <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-3 mt-4">
             {[
-              "JavaScript (ES6+)",
-              "Next.js",
-              "React",
+              "Python",
               "Node.js",
-              "TypeScript",
+              "React",
+              "Flask",
               "Express.js",
               "MongoDB",
-              "Tailwind CSS",
+              "HTML & CSS",
+              "Firebase"
             ].map((tech, index) => (
               <motion.li
                 key={tech}
@@ -78,7 +69,7 @@ const About = () => {
           <div className="absolute w-full h-80 rounded-lg overflow-hidden shadow-navbarShadow">
             <img
               className="w-full h-full object-cover rounded-lg transition-transform duration-300 group-hover:scale-105"
-              src={"/assets/images/profile.png"}
+              src={"/assets/images/ss.jpg"}
               alt="Profile Image"
             />
             <div className="absolute inset-0 bg-textGreen/20 rounded-lg transition-opacity duration-300 group-hover:opacity-0"></div>

@@ -12,13 +12,13 @@ const Projects = () => {
         <div className="flex flex-col xl:flex-row gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
-            href="https://nextamazon.reactbd.com/"
+            href="https://chinthanapoojary.github.io/zastriya_associates/"
             target="_blank"
           >
             <div>
               <img
                 className="w-full h-full object-contain"
-                src={"/assets/images/amazonImg.png"}
+                src={"/assets/images/zastriya.png"}
                 alt="amazonImg"
               />
               <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
@@ -29,39 +29,31 @@ const Projects = () => {
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
                 Featured Project
               </p>
-              <h3 className="text-2xl font-bold">Amazon Clone 2.0</h3>
+              <h3 className="text-2xl font-bold">Zastriya Associates Website</h3>
             </div>
             <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
-              An Amazon clone website for visualizing personalized Amazon
-              website. View your products, Add your account with{" "}
-              <span className="text-textGreen">O-auth</span> and then make the
-              purchage using <span className="text-textGreen">stripe</span>.
+              Developed and deployed a professional, responsive website for Zastriya Associates, a legal firm, focusing 
+on a clean user interface, seamless cross-device experience, and optimized performance. {" "}
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
-              <li>Nextjs</li>
-              <li>Typescript</li>
-              <li>Next-auth</li>
-              <li>Stripe</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>EmailJS</li>
               <li>Vercel Deployment</li>
             </ul>
             <div className="text-2xl flex gap-4">
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://github.com/noorjsdivs"
+                href="https://github.com/chinthanapoojary/zastriya_associates"
                 target="_blank"
               >
                 <TbBrandGithub />
               </a>
+              
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://youtu.be/WzMtRfzkP-Q"
-                target="_blank"
-              >
-                <AiOutlineYoutube />
-              </a>
-              <a
-                className="hover:text-textGreen duration-300"
-                href="https://nextamazon.reactbd.com/"
+                href="https://chinthanapoojary.github.io/zastriya_associates/"
                 target="_blank"
               >
                 <RxOpenInNewWindow />
@@ -74,13 +66,13 @@ const Projects = () => {
         <div className="flex flex-col xl:flex-row-reverse gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
-            href="https://noormohammad.reactbd.com/"
+            href="https://relaxed-douhua-fecc61.netlify.app//"
             target="_blank"
           >
             <div>
               <img
                 className="w-full h-full object-contain"
-                src={"/assets/images/cyberBlog.png"}
+                src={"/assets/images/zoo.png"}
                 alt="cyberImg"
               />
               <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
@@ -91,41 +83,30 @@ const Projects = () => {
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
                 Featured Project
               </p>
-              <h3 className="text-2xl font-bold">Cyber Security Blog</h3>
+              <h3 className="text-2xl font-bold">Zoo-Management System</h3>
             </div>
             <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md xl:-mr-16">
-              A full functional Cyber Security Blog where you can view the
-              latest post and{" "}
-              <span className="text-textGreen">comments on</span> it by passing
-              your ideas besides you can try to add your own{" "}
-              <span className="text-textGreen">post</span> on it by logging on
-              the portal.
+              A Zoo Management System web application built using HTML, CSS, JavaScript, and Firebase. It features an interactive animal gallery, online ticket booking, and donation management to support wildlife conservation. The platform ensures a user-friendly experience for visitors while simplifying zoo operations.              
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
-              <li>Nextjs</li>
-              <li>Typescript</li>
-              <li>Next-auth</li>
-              <li>Sanity</li>
-              <li>React Hook Form</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>FireBase</li>
+              <li>Netlify</li>
             </ul>
             <div className="text-2xl flex gap-4">
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://github.com/noorjsdivs"
+                href="https://github.com/chinthanapoojary/zoo-managment"
                 target="_blank"
               >
                 <TbBrandGithub />
               </a>
+              
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://youtu.be/49Fx963su1I"
-                target="_blank"
-              >
-                <AiOutlineYoutube />
-              </a>
-              <a
-                className="hover:text-textGreen duration-300"
-                href="https://www.noormohmmad.com/"
+                href="https://relaxed-douhua-fecc61.netlify.app/"
                 target="_blank"
               >
                 <RxOpenInNewWindow />
@@ -138,13 +119,13 @@ const Projects = () => {
         <div className="flex flex-col xl:flex-row gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
-            href="https://noorshop.netlify.app/"
+            href="https://appointment-git-main-chinthanapoojarys-projects.vercel.app/"
             target="_blank"
           >
             <div>
               <img
                 className="w-full h-full object-contain"
-                src={"/assets/images/noorShop.png"}
+                src={"/assets/images/appointment.png"}
                 alt="noorShop"
               />
               <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
@@ -155,39 +136,29 @@ const Projects = () => {
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
                 Featured Project
               </p>
-              <h3 className="text-2xl font-bold">Amazon Clone 2.0</h3>
+              <h3 className="text-2xl font-bold">Tattoo Appointment page</h3>
             </div>
             <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md">
-              An Amazon clone website for visualizing personalized Amazon
-              website. View your products, Add your account with{" "}
-              <span className="text-textGreen">O-auth</span> and then make the
-              purchage using <span className="text-textGreen">stripe</span>.
+              A Tattoo Appointment Booking Page built using the MERN stack , integrated with Firebase Authentication for secure user login and Razorpay for seamless online payment processing. This page allows users to browse tattoo designs, schedule appointments, and complete payments securely, ensuring a smooth and user-friendly booking experience
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
-              <li>Nextjs</li>
-              <li>Typescript</li>
-              <li>Next-auth</li>
-              <li>Stripe</li>
+              <li>MERN STACK</li>
+              <li>FireBase</li>
+              <li>Razorpay</li>
               <li>Vercel Deployment</li>
             </ul>
             <div className="text-2xl flex gap-4">
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://github.com/noorjsdivs"
+                href="https://github.com/chinthanapoojary/Appointment"
                 target="_blank"
               >
                 <TbBrandGithub />
               </a>
+              
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://youtu.be/fi0nQc25xAw"
-                target="_blank"
-              >
-                <AiOutlineYoutube />
-              </a>
-              <a
-                className="hover:text-textGreen duration-300"
-                href="https://noorshop.netlify.app/"
+                href="https://appointment-git-main-chinthanapoojarys-projects.vercel.app/"
                 target="_blank"
               >
                 <RxOpenInNewWindow />
