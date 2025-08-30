@@ -2,10 +2,9 @@ import { useRef } from "react";
 import { useState } from "react";
 import { TbBrandGithub } from "react-icons/tb";
 import {
-  SlSocialYoutube,
+ 
   SlSocialLinkedin,
-  SlSocialFacebook,
-  SlSocialInstagram,
+  
 } from "react-icons/sl";
 import { MdOutlineClose } from "react-icons/md";
 import { motion, AnimatePresence } from "framer-motion";
